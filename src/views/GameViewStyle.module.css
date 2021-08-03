@@ -1,0 +1,35 @@
+.gameBoard {
+    display: grid;
+    grid-template-columns: 180px 180px 180px;
+    grid-template-rows: 180px 180px 180px;
+    padding: 10px;
+}
+
+.cell {
+    background-color: rgb(133, 212, 219);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    margin: 6px;
+    border-radius: 16px;
+    background-size: contain;
+}
+
+.cell.empty.hoverX {
+    background-image: url("../assets/icons/x.png");
+    background-color: rgb(179, 179, 179);
+    opacity: 0.6;
+}
+
+.cell.empty.hoverO {
+    background-image: url("../assets/icons/o.png");
+    background-color: rgb(179, 179, 179);
+    opacity: 0.6;
+}
+
+.cell.x {
+    background-image: url("../assets/icons/x.png");
+}
+
+.cell.o {
+    background-image: url("../assets/icons/o.png");
+}
